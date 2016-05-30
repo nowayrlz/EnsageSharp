@@ -64,14 +64,14 @@ namespace TinkerSharp
             Refresh = me.Spellbook.Spell4;
 
             // Item init
-            Blink = me.FindItem("item_blink");
-            Dagon = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("item_dagon"));
-            Hex = me.FindItem("item_sheepstick");
-            Soulring = me.FindItem("item_soul_ring");
-            Ethereal = me.FindItem("item_ethereal_blade");
-            Veil = me.FindItem("item_veil_of_discord");
-            Orchid = me.FindItem("item_orchid");
-            Shiva = me.FindItem("item_shivas_guard");
+            Blink = me.FindItem("blink");
+            Dagon = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("dagon"));
+            Hex = me.FindItem("sheepstick");
+            Soulring = me.FindItem("soul_ring");
+            Ethereal = me.FindItem("ethereal_blade");
+            Veil = me.FindItem("veil_of_discord");
+            Orchid = me.FindItem("orchid");
+            Shiva = me.FindItem("shivas_guard");
 
             // Manacost calculations
             var manaForCombo = Laser.ManaCost + Rocket.ManaCost;
