@@ -64,13 +64,13 @@ namespace TinkerSharp
             Refresh = me.Spellbook.Spell4;
 
             // Item init
-            Blink = me.FindItem("blink");
+            Blink = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("dagger"));;
             Dagon = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("dagon"));
-            Hex = me.FindItem("sheepstick");
-            Soulring = me.FindItem("soul_ring");
-            Ethereal = me.FindItem("ethereal_blade");
-            Veil = me.FindItem("veil_of_discord");
-            Orchid = me.FindItem("orchid");
+            Hex = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("vyse"));
+            Soulring = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("soul"));
+            Ethereal = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("ethereal"));
+            Veil = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("veil"));
+            Orchid = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("orchid"));
             Shiva = me.FindItem("shivas_guard");
 
             // Manacost calculations
