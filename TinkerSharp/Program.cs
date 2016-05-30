@@ -66,7 +66,7 @@ namespace TinkerSharp
             // Item init
             Blink = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("blink"));;
             Dagon = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("dagon"));
-            Hex = me.FindItem("item_sheepstick");
+            Hex = me.FindItem("imba_sheepstick");
             Soulring = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("soul"));
             Ethereal = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("ethereal"));
             Veil = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("veil"));
