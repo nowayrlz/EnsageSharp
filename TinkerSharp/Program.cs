@@ -70,7 +70,7 @@ namespace TinkerSharp
             Soulring = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("soul"));
             Ethereal = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("ethereal"));
             Veil = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("veil"));
-            Orchid = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("orchid"));
+            Orchid = me.Inventory.Items.FirstOrDefault(item => item.Name.Contains("imba_orchid"));
             Shiva = me.FindItem("shivas_guard");
 
             // Manacost calculations
